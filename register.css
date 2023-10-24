@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Inter2';
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+.d7{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+.inp3{
+    position: relative;
+    width: 290px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #407382;
+    border-radius: 3px;
+}
+.lbl3{
+    background-color: white;
+    width: 82px;
+    position: absolute;
+    margin: 10px 0px 0px 15px;
+    padding: 0px 0px 0px 6px;
+    z-index: 1;
+    font-size: 11px;
+    font-weight: 500;
+    color: #D9A556;
+    font-family: 'Inter2';
+}
+.lbl4{
+    background-color: white;
+    width: 52px;
+    position: absolute;
+    margin: 10px 0px 0px 15px;
+    padding: 0px 0px 0px 6px;
+    z-index: 1;
+    font-size: 11px;
+    font-weight: 500;
+    color: #D9A556;
+    font-family: 'Inter2';
+}
+.lbl5{
+    background-color: white;
+    width: 41px;
+    position: absolute;
+    z-index: 1;
+    margin: 10px 0px 0px 15px;
+    padding: 0px 0px 0px 6px;
+    font-size: 11px;
+    font-weight: 500;
+    color:#D9A556;
+    font-family: 'Inter2';
+}
+.lbl6{
+    background-color: white;
+    width: 75px;
+    position: absolute;
+    z-index: 1;
+    margin: 10px 0px 0px 15px;
+    padding: 0px 0px 0px 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #D9A556;
+    font-family: 'Inter2';
+}
+.lbl7{
+    background-color: white;
+    width: 50px;
+    position: absolute;
+    z-index: 1;
+    margin: 10px 0px 0px 15px;
+    padding: 0px 0px 0px 6px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #D9A556;
+    font-family: 'Inter2';
+}
+.lbl8{
+    background-color: white;
+    width: 80px;
+    position: absolute;
+    z-index: 1;
+    margin: -8px 0px 0px 15px;
+    padding: 0px 0px 0px 6px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #D9A556;
+    font-family: 'Inter2';
+}
+.lbl9{
+    background-color: white;
+    width: 95px;
+    position: absolute;
+    z-index: 1;
+    margin: 10px 0px 0px 15px;
+    padding: 0px 0px 0px 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color:#D9A556;
+    font-family: 'Inter2';
+}
+.select{
+    position: relative;
+    width: 290px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #2E3A59;
+    border-radius: 3px;
+    font-size: 11px;
+    color:#749587;  
+    padding: 0px 0px 0px 15px;
+}
+::-webkit-input-placeholder{
+    padding: 0px 0px 0px 20px;
+    font-size: 11px;
+    color:#749587;
+}
+.inp4{
+    position: relative;
+    width: 290px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #407382;
+    border-radius: 3px;
+}
+.inp5{
+    position: relative;
+    width: 290px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #407382;
+    border-radius: 3px;
+}
+.inp6{
+    position: relative;
+    width: 290px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #407382;
+    border-radius: 3px;
+}
+.calendar{
+    width: 18px;
+    position: absolute;
+    left:60%;
+    margin: 10px 0px 0px 88px;
+    z-index: 1;
+}
+.inp4::-webkit-calendar-picker-indicator{ 
+position: relative;
+left:-2%;
+z-index: 1;
+opacity: 0;
+}
+ .opt1,.opt2{
+  color: black;
+  height: 60px;
+}
+.btn2{
+    width: 170px;
+    height: 28px;
+    border: none;
+    background-color: #D9A556;
+    color:white;
+    border-radius: 20px;
+    font-family: 'Inter2';
+    margin: 30px 0px 0px 50px;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.select{
+    appearance: none;
+    position: relative;
+    border: 1px solid #407382;
+}
+.arrow{
+    position: absolute;
+    left: 70%;
+    margin: 14px 0px 0px 62px;
+    z-index: 1;
+    width: 8px;
+}
+.select:hover{
+    cursor: pointer;
+}
+.h42{
+    font-family: 'Inter1';
+    font-size: 15px;
+    text-align: center;
+    color:#407382;
+}
+.img5{
+    width: 183px;
+    height: 121px;
+    position: absolute;
+}
+.img6{
+    width: 580px;
+    height: 300px;
+    margin: 170px 0px 0px 60px;
+}
+.d6{
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    left:3%;
+    margin: 0px 0px 0px 120px;
+    border-right-color: #f2fff9;
+    background-color: #f6faf8;
+}
+.d5{
+    position: relative;
+    left:12%;
+    z-index: 1;
+    margin: 30px 0px 0px 0px;
+}
+.d4{
+    margin: 70px 0px 0px 0px;
+    position: relative;
+    top:5%;
+    left:4%;
+}
+.eyeline1{
+    position: absolute;
+    left:59%;
+    z-index: 1;
+    margin: 10px 0px 0px 90px;
+    width: 18px;
+}
+.eyeline2{
+    position: absolute;
+    left:59%;
+    z-index: 1;
+    margin: 10px 0px 0px 90px;
+    width: 18px;
+}
+.arr{
+    margin: -20px 0px 0px -60px;
+}
+.eyeline1:hover{
+    cursor: pointer;
+}
+.eyeline2:hover{
+    cursor: pointer;
+}
